@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Eventify-Contato</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                       
+      </button>
+      <a class="navbar-brand" href="#">Eventify</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="proximoseventos.html">Próximos eventos</a></li>
+        <li><a href="eventospassado.html">Eventos passados</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li class="active"><a href="contato.html">Contato</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container">
+  <h3 class="text-center">Contato</h3>
+  <p class="text-center"><em>Área de contato!</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Usuário? Deixe uma nota.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Januária, BR</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Telefone: +15 1234567890</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: Eventify@gmail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comentário" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h3 class="text-center">Equipe</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">João Marcos</a></li>
+    <li><a data-toggle="tab" href="#menu1">Carlos Daniel</a></li>
+    <li><a data-toggle="tab" href="#menu2">Victor Daniel</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>João Marcos</h2>
+      <p>@_jmarcos.gc</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>Carlos Daniel</h2>
+      <p>@c.daniel7</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2>Victor Daniel</h2>
+      <p>@vitinn_dn</p>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>© 2024 Eventify. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>

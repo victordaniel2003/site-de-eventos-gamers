@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Eventify</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="proximoseventos.html">Próximos eventos</a></li>
+          <li><a href="eventospassado.html">Eventos passados</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Eventify</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="#section2">Proximos lançamentos</a></li>
+        <li><a href="#section3">Lançamentos anteriores</a></li>
+        <li><a href="#section3">Página extra</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>Astro Bot é GOTY</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Joao Marcos, Dec 12, 2024.</h5>
+      <h5><span class="label label-danger">Game</span> <span class="label label-primary">GOTY</span></h5><br>
+      <p>Na noite da última quinta-feira (12), ocorreu o The Game Awards 2024, o evento conhecido como o “Oscar” dos videogames que premia os principais games do ano em diversas categorias. Astro Bot, Balatro, Black Myth: Wukong, Elden Ring: Shadow of the Erdtree, Final Fantasy VII Rebirth e Metaphor: ReFantazio concorriam pelo prêmio máximo de “Jogo do Ano”, mas o título do estúdio Team Asobi foi coroado com o troféu mais cobiçado da noite.</p>
+      <br><br>
+      
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>FromSoftware anuncia Elden Ring: Nightreign, derivado cooperativo para 2025</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Joao Marcos, Dec 13, 2024.</h5>
+      <h5><span class="label label-success">Soul's Like</span></h5><br>
+      <p>Durante o The Game Awards 2024 na última quinta-feira (2024), a FromSoftware anunciou Elden Ring: Nightreign, um jogo derivado cooperativo que permitirá que diversos jogadores enfrentem chefes.
+O jogo publicado pela Bandai Namco será lançado para PlayStation 5, PlayStation 4, Xbox Series X|S e PC. Como pode ser visto no trailer, ele trará diversos chefes e locais icônicos de Elden Ring.</p>
+      <hr>
+
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comments:</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="https://i.imgur.com/FOjE0uE.jpeg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>JhonyBoy <small>Dec 14, 2024, 9:12 PM</small></h4>
+          <p>Sempre trazendo notícia atualizada do mundo dos games...</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="https://i.imgur.com/FOjE0uE.jpeg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Josney <small>Dec 15, 2014, 8:25 PM</small></h4>
+          <p>Ansioso pro GTA 6, e o melhor site para acompanhar todas as notícias e leaks é aqui</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="https://i.imgur.com/FOjE0uE.jpeg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>Nested Bro <small>Dec 16, 2024, 8:28 AM</small></h4>
+              <p>Rumores que só em 2026 hein, aguardando os caras se pronunciarem aqui no blog</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>© 2024 Eventify. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
